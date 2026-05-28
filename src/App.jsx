@@ -1,14 +1,11 @@
 function App() {
   return (
-    <div>
-      <h1>Vite + React</h1>
-
-      <p>
-        Vite is a build tool that aims to provide a faster and leaner
-        development experience for modern web projects.
-      </p>
+    <div className="h-screen bg-black text-white flex items-center justify-center">
+      <h1 className="text-5xl font-bold text-amber-500">
+        Tailwind Working
+      </h1>
     </div>
   )
 }
 
-export default App
+export default App;
