@@ -1,10 +1,11 @@
 function Navbar() {
   return (
-    <nav className="bg-gray-900 text-white p-4">
-      <ul className="flex gap-6">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
+    <nav className=" text-black p-4 sticky top-0 m-2  bg-white">
+      <ul className="flex gap-30 justify-end">
+        <li><a href="/">ABOUT</a></li>
+        <li><a href="/mens">MENSWEAR</a></li>
+        <li><a href="/women">WOMENSWEAR</a></li>
+         <li><a href="/where">WHERE TO BUY</a></li>
       </ul>
     </nav>
   )

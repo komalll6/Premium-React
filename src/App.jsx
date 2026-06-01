@@ -1,9 +1,14 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import './index.css'
+
 function App() {
   return (
-    <div className="h-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-amber-500">
-        Tailwind Working
-      </h1>
+    <div className="App">
+      <Navbar />
+      <Hero />
+      <About />
     </div>
   )
 }
