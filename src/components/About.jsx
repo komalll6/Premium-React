@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="relative -mt-20 px-16">
+    <section className="relative mt-5 px-16">
       <div className=" mx-auto bg-[#f8f6f6] shadow-gray-500 shadow-lg">
 
         {/* Heading */}
