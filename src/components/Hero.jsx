@@ -1,16 +1,3 @@
-// function Hero() {
-//   return (
-//     <div className="h-screen bg-black text-white flex items-center justify-center">
-//       <h1 className="text-5xl font-extralight">
-//       <img src="https://i.pinimg.com/1200x/f0/0e/0a/f00e0a05dadcdc893a0397804a4b682f.jpg" alt="" className="w-full h-full object-cover" />
-//         DISCOVER OUR 5 BEST <br></br>LOOKS OF THE SEASON
-//       </h1>
-//     </div>
-//   )
-// }
-
-// export default Hero;
-
 function Hero() {
   return (
     // The main container is relative, taking up the full screen height minus any fixed header constraints
@@ -41,7 +28,7 @@ function Hero() {
 
         {/* Luxury Call to Action Button */}
         <button className=" cursor-pointer mt-10 px-8 py-3 border border-white text-xs uppercase tracking-[0.25em] bg-transparent text-white hover:bg-white hover:text-black transition-all duration-300 font-light">
-          Explore Lookbook
+          Explore Best Collection
         </button>
 
       </div>
