@@ -47,11 +47,6 @@ function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/pants" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
-                    Pants
-                  </Link>
-                </li>
-                <li>
                   <Link to="/knitswear" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
                     Knitswear
                   </Link>
@@ -79,31 +74,6 @@ function Navbar() {
                 <li>
                   <Link to="/blazers" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
                     Blazers
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/dresses" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
-                    Dresses
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/outerwear" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
-                    Outerwear
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/pants" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
-                    Pants
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/knitswear" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
-                    Knitswear
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/traditionalwear" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
-                    Traditionalwear
                   </Link>
                 </li>
               </ul>
