@@ -17,22 +17,22 @@ function Shirts() {
 
   return (
     <div className="bg-white min-h-screen pt-24 pb-24 text-zinc-900 font-sans">
-      <div className="max-w-[1400px] mx-auto px-12 lg:px-20">
+      <div className="max-w-[1400px] mx-auto px-12 lg:px-20 -mt-20">
         
         {/* Left-Aligned Clean Section Header */}
-        <div className="mb-14 pl-4">
+        <div className="pl-4">
           <h1 className="text-[22px] font-bold tracking-[0.18em] uppercase text-zinc-900">
             Business Suiting
           </h1>
         </div>
 
         {/* 4-Column Studio Grid Layout */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 -mb-20">
           {cleanData.map((shirt) => (
             <div key={shirt.id} className="flex flex-col items-center text-center group cursor-pointer">
               
               {/* Image Frame */}
-              <div className="w-full aspect-[3/4] bg-white overflow-hidden flex items-center justify-center mb-6 relative">
+              <div className="w-full aspect-[3/4] bg-white overflow-hidden flex items-center justify-center relative">
                 <img
                   src={shirt.image}
                   alt={shirt.name}

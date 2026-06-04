@@ -13,7 +13,7 @@ function Blazer() {
 
   return (
     <div className="bg-white min-h-screen pt-20 pb-24 text-zinc-900 font-sans">
-      <div className="max-w-[1400px] mx-auto px-12 lg:px-20">
+      <div className="max-w-[1400px] mx-auto px-12 lg:px-20 -mt-20">
         
         {/* Left-Aligned Elegant Title Header */}
         <div className="mb-14 pl-4">
@@ -23,12 +23,12 @@ function Blazer() {
         </div>
 
         {/* 4-Column Ghost Mannequin Grid Layout */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-5 -mb-20">
           {blazerData.map((blazer) => (
             <div key={blazer.id} className="flex flex-col items-center text-center group cursor-pointer">
               
               {/* Isolated Studio White Background Frame */}
-              <div className="w-full aspect-[3/4] bg-white overflow-hidden flex items-center justify-center mb-6 relative">
+              <div className="w-full aspect-[3/4] bg-white overflow-hidden flex items-center justify-center relative">
                 <img
                   src={blazer.image}
                   alt={blazer.name}

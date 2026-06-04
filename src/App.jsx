@@ -1,3 +1,4 @@
+// src/App.jsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
@@ -6,14 +7,16 @@ import About from "./components/About";
 import Products from "./components/Products";
 import Lookbook from "./components/Lookbook";
 import Blazer from './components/Blazer'; 
-import Suits from "./components/Suits";
+import Suits from "./components/Suits"; 
 import Shirt from "./components/Shirts";
 import Outerwear from "./components/Outerwear";
+import Knitswear from "./components/Knitswear";
+import Womenblazer from "./components/Womenblazer"; 
+import Coset from "./components/Coset";
 import Showroom from "./components/Showroom";
 import Footer from "./components/Footer";
 import './index.css';
 
-// Contextual static wrappers
 const MenswearPage = () => <div className="pt-32 text-center min-h-screen bg-[#f3ede4] font-light tracking-widest text-zinc-800">MENSWEAR COLLECTION COMING SOON</div>;
 const WomenswearPage = () => <div className="pt-32 text-center min-h-screen bg-[#f3ede4] font-light tracking-widest text-zinc-800">WOMENSWEAR COLLECTION COMING SOON</div>;
 
@@ -119,9 +122,17 @@ function App() {
           <Route path="/blazers" element={<Blazer />} />
           <Route path="/shirts" element={<Shirt />} />
           <Route path="/outerwear" element={<Outerwear />} />
+          <Route path="/knitswear" element={<Knitswear />} />
+          
+          <Route path="/coset" element={<Coset />} />
+          <Route path="/co-ord-sets" element={<Coset />} />
 
-          {/* Connected Showroom */}
+          <Route path="/womens-blazers" element={<Womenblazer />} />
+          <Route path="/women'sblazers" element={<Womenblazer />} />
+
+          {/* FIX: Handled both paths to cleanly route to Showroom component */}
           <Route path="/showrooms" element={<Showroom />} />
+          <Route path="/where" element={<Showroom />} />
 
           {/* Creative Media Portfolios */}
           <Route path="/formal-lookbook" element={<FormalLookbookPage />} />

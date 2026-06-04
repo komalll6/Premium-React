@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+
 function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
@@ -6,7 +7,6 @@ function Navbar() {
         <ul className="flex justify-end items-center gap-12 text-[14px] tracking-[2px] font-medium">
 
           <li>
-            {/* Updated href link destination token right here */}
             <a
               href="/#about"
               className="hover:text-gray-500 transition-colors duration-200"
@@ -72,8 +72,9 @@ function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/blazers" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
-                    Blazers
+                  {/* FIX: Cleaned to point to standard safe route paths */}
+                  <Link to="/womens-blazers" className="block px-6 py-3 hover:bg-gray-50 text-gray-700 hover:text-black transition-colors duration-150">
+                    Women's Blazers
                   </Link>
                 </li>
               </ul>
@@ -81,13 +82,13 @@ function Navbar() {
           </li>
 
           <li>
-            <Link
-              to="/where"
-              className="hover:text-gray-500 transition-colors duration-200"
-            >
-              WHERE TO BUY
-            </Link>
-          </li>
+  <Link
+    to="/showrooms"
+    className="hover:text-gray-500 transition-colors duration-200"
+  >
+    WHERE TO BUY
+  </Link>
+</li>
 
         </ul>
       </div>
