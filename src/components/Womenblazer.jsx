@@ -16,8 +16,7 @@ function Womenblazer() {
 
   return (
     <div className="bg-white min-h-screen pt-24 pb-24 text-zinc-900 font-sans">
-      <div className="max-w-[1400px] mx-auto px-12 lg:px-20 -mt-20">
-        
+    <div style={{ maxWidth: '1400px' }} className="mx-auto px-12 lg:px-20 -mt-20">        
         {/* Left-Aligned Clean Section Header */}
         <div className="mb-14 pl-4">
           <h1 className="text-[22px] font-bold tracking-[0.18em] uppercase text-zinc-900">
@@ -31,8 +30,9 @@ function Womenblazer() {
             <div key={item.id} className="flex flex-col items-center text-center group cursor-pointer">
               
               {/* Image Frame */}
-              <div className="w-full aspect-[3/4] bg-white overflow-hidden flex items-center justify-center relative">
-                <img
+          <div style={{ aspectRatio: '3 / 4' }} 
+           className="w-full bg-white overflow-hidden flex items-center justify-center relative">                
+           <img
                   src={item.image}
                   alt={item.name}
                   className="w-full h-full object-contain object-center mix-blend-multiply transition-transform duration-500 ease-out group-hover:scale-102"
@@ -50,13 +50,14 @@ function Womenblazer() {
               </span>
 
               {/* Product Subtitle */}
-              <h3 className="text-[11px] font-normal tracking-[0.1em] text-zinc-500 uppercase max-w-[240px] min-h-[34px] leading-relaxed mb-1">
-                {item.name}
+             <h3 style={{ fontSize: '11px', maxWidth: '240px', minHeight: '34px' }} 
+             className="font-normal tracking-widest text-zinc-500 uppercase leading-relaxed mb-1">                
+             {item.name}
               </h3>
 
               {/* Price Tag */}
-              <span className="text-[13px] font-bold tracking-[0.05em] text-zinc-900">
-                {item.price}
+            <span style={{ fontSize: '13px' }} className="font-bold tracking-wider text-zinc-900">                
+              {item.price}
               </span>
               
             </div>

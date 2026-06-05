@@ -36,8 +36,11 @@ const FormalLookbookPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {formalImages.map((src, index) => (
             <div key={index} className="overflow-hidden bg-zinc-200 shadow-sm rounded-sm group">
-              <img src={src} alt={`Formal Look ${index + 1}`} className="w-full h-[650px] object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]" />
-            </div>
+         <img src={src} 
+              alt={`Formal Look ${index + 1}`} 
+              style={{ height: '650px' }}
+              className="w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105" />            
+              </div>
           ))}
         </div>
       </div>
@@ -61,8 +64,9 @@ const CasualLookbookPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {casualImages.map((src, index) => (
             <div key={index} className="overflow-hidden bg-zinc-200 shadow-sm rounded-sm group">
-              <img src={src} alt={`Casual Look ${index + 1}`} className="w-full h-[650px] object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]" />
-            </div>
+<img src={src} alt={`Casual Look ${index + 1}`} style={{ height: '650px' }}
+  className="w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105" />            
+  </div>
           ))}
         </div>
       </div>
@@ -86,8 +90,9 @@ const BusinessLookbookPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {businessImages.map((src, index) => (
             <div key={index} className="overflow-hidden bg-zinc-200 shadow-sm rounded-sm group">
-              <img src={src} alt={`Business Look ${index + 1}`} className="w-full h-[650px] object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]" />
-            </div>
+      <img src={src} alt={`Business Look ${index + 1}`} style={{ height: '650px' }}
+          className="w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105" />            
+  </div>
           ))}
         </div>
       </div>
@@ -100,8 +105,8 @@ function App() {
     <div className="bg-[#f3ede4] min-h-screen flex flex-col justify-between">
       <Navbar />
       
-      <main className="flex-grow">
-        <Routes>
+<main className="grow">        
+  <Routes>
           {/* Main Landing Page Layout */}
           <Route path="/" element={
             <>

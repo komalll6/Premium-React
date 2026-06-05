@@ -59,9 +59,8 @@ function About() {
         <div className="flex justify-center py-14 pb-5">
           <button 
             onClick={() => navigate('/showrooms')}
-            className="border-[2px] border-black px-20 py-3 uppercase tracking-[5px] font-semibold 
-          text-lg hover:bg-black hover:text-white transition-all duration-300"
-          >
+            className="border-2 border-black px-20 py-3 uppercase tracking-[5px] font-semibold text-lg hover:bg-black hover:text-white transition-all duration-300"
+  >
             Start Your Custom
           </button>
         </div>
