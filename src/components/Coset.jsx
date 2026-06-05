@@ -22,7 +22,7 @@ function Coset() {
         {/* Left-Aligned Clean Section Header */}
         <div className="mb-14 pl-4">
           <h1 className="text-[22px] font-bold tracking-[0.18em] uppercase text-zinc-900">
-            Co-Ord Sets Collection
+            Co-Ord Sets Designs
           </h1>
         </div>
 

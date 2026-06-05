@@ -37,7 +37,7 @@ function About() {
             </h3>
             <p className="text-[14px] text-gray-600 leading-relaxed">
               We use curated fabrics from the best mills in the world,
-              including Dormeuil, Loro Piana, Ariston and Thomas Mason.
+              including <strong>Raymonds, Arvind, Grado, and Italian mills</strong>. Our expert Style Advisors will help you find the perfect fabric for your custom clothing.
             </p>
           </div>
 

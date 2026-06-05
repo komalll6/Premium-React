@@ -17,8 +17,8 @@ function Blazer() {
         
         {/* Left-Aligned Elegant Title Header */}
         <div className="mb-14 pl-4">
-          <h1 className="text-[22px] font-bold tracking-[0.18em] uppercase text-zinc-900">
-            Cool Weather Blazers
+          <h1 className="text-[22px] font-bold tracking-[0.18em] uppercase text-zinc-900  -mb-5  mt-5">
+            Cool Weather Blazers Designs
           </h1>
         </div>
 

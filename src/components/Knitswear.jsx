@@ -22,7 +22,7 @@ function Knitswear() {
         {/* Left-Aligned Clean Section Header */}
         <div className="mb-14 pl-4">
           <h1 className="text-[22px] font-bold tracking-[0.18em] uppercase text-zinc-900">
-            Knitswear
+            Knitswear Designs
           </h1>
         </div>
 

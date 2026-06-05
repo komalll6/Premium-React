@@ -94,7 +94,7 @@ function Footer() {
             <div className="space-y-2 text-gray-400">
               <p>support@rajhuntailor.com</p>
               <p>+91 99882 92944</p>
-              <p>Model Town Near Shivani Park, Jalandhar City, Punjab, India</p>
+              <p>Shop No # 7b, Market, near Shivani Sharma Park, Model Town, Jalandhar, Punjab 144001</p>
             </div>
           </div>
 

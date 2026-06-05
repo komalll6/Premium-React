@@ -23,13 +23,13 @@ function Hero() {
 
         {/* Correctly Positioned, Centered Main Heading */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extralight tracking-[0.15em] leading-tight md:leading-snug uppercase text-center">
-          DISCOVER OUR 5 BEST <br className="hidden sm:inline" /> LOOKS OF THE SEASON
+        OUR BEST Brands- <strong>Raymonds, Arvind, Grado, Italian etc...</strong><br className="hidden sm:inline" /> LOOKS OF THE SEASON
         </h1>
 
-        {/* Luxury Call to Action Button */}
+        {/* Luxury Call to Action Button
         <button className=" cursor-pointer mt-10 px-8 py-3 border border-white text-xs uppercase tracking-[0.25em] bg-transparent text-white hover:bg-white hover:text-black transition-all duration-300 font-light">
           Explore Best Collection
-        </button>
+        </button> */}
 
       </div>
 

@@ -10,7 +10,7 @@ function Shirts() {
   if (cleanData.length === 0) {
     return (
       <div className="pt-32 text-center min-h-screen bg-white text-zinc-800">
-        <p className="tracking-widest uppercase text-sm">No items matching suit specifications found.</p>
+        <p className="tracking-widest uppercase text-sm">No items matching shirt specifications found.</p>
       </div>
     );
   }
@@ -22,7 +22,7 @@ function Shirts() {
         {/* Left-Aligned Clean Section Header */}
         <div className="pl-4">
           <h1 className="text-[22px] font-bold tracking-[0.18em] uppercase text-zinc-900">
-            Business Suiting
+            Business Suiting Designs
           </h1>
         </div>
 
