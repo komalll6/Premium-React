@@ -9,7 +9,7 @@ function Coset() {
 
   if (cleanData.length === 0) {
     return (
-      <div className="pt-32 text-center min-h-screen bg-white text-zinc-800">
+    <div className="bg-white min-h-screen pt-24 pb-14 text-zinc-900 font-sans">
         <p className="tracking-widest uppercase text-sm">No items matching knitwear specifications found.</p>
       </div>
     );
